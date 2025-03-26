@@ -6,7 +6,7 @@ Ten projekt zawiera instrukcje dotyczące uruchomienia kontenera **MariaDB** za 
 
 ## ⚙️ Wymagania wstępne
 
-- Zainstalowany **Docker** - Na komputerach szkolnych już jest, wystarczy go uruchomić
+- Zainstalowany **Docker** - Na komputerach szkolnych już jest, wystarczy go uruchomić.  
   👉 [Instrukcja instalacji Dockera](https://www.docker.com/)
 
 ---
