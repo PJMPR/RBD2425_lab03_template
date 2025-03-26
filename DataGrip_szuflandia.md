@@ -10,7 +10,7 @@ Ta instrukcja pomoże Ci skonfigurować połączenie z bazą danych MariaDB na s
 |--------------|---------------------------------|
 | **Host**     | `suflandia.pjwstk.edu.pl`       |
 | **Port**     | `22`                            |
-| **User**     | `Twój numer konta studenta`     |
+| **User**     | `Twój numer konta studenta (s0001)`     |
 | **Password** | `Hasło do konta studenta`       |
 
 ---
@@ -21,9 +21,8 @@ Ta instrukcja pomoże Ci skonfigurować połączenie z bazą danych MariaDB na s
 |--------------|-----------------------------------------------------------------------|
 | **Host**     | `localhost`                                                           |
 | **Port**     | `3306`                                                                |
-| **User**     | `Twój numer konta studenta`                                           |
+| **User**     | `Twój numer konta studenta (s0001)`                                           |
 | **Password** | `Imię.Nazw` → np. `Jan.Kowa`                                          |
-| **Database** | (pozostaw puste lub wpisz swoją nazwę bazy, jeśli została przydzielona) |
 
 ℹ️ Hasło ma format: **pierwsze 3 litery imienia**, kropka, **pierwsze 4 litery nazwiska**.  
 Np. dla `Jan Kowalski` → **Jan.Kowa**
@@ -54,13 +53,14 @@ Przejdź do zakładki **SSH/SSL** i zaznacz **Use SSH tunnel**. Wprowadź dane:
 |---------------------|---------------------------------|
 | **Host**            | `suflandia.pjwstk.edu.pl`       |
 | **Port**            | `22`                            |
-| **User**            | `Twój numer konta studenta`     |
+| **User**            | `Twój numer konta studenta (s0001)`     |
 | **Authentication**  | `Password`                      |
 | **Password**        | `Hasło do konta studenta`       |
-| **Local port**      | (pozostaw domyślnie `0`)        |
+<!-- 
+| **Local port**      | (pozostaw domyślnie `0`)        | 
 | **Remote port**     | `3306`                          |
 | **Remote host**     | `localhost`                     |
-
+-->
 ---
 
 #### 4️⃣ Pobierz sterownik MariaDB
